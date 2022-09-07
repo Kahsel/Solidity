@@ -16,7 +16,7 @@ contract raisePower{
         c = _a ** _b;
     }
 
-    //create a function that gets out data
+    //create a function that gets our data
     function get() public view returns(string, uint){
         return (d, c);
     }
